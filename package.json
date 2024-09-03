@@ -1,0 +1,21 @@
+{
+  "name": "minimal-template",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npm run compile && npm run serve",
+    "compile": "tsc",
+    "serve": "live-server ./src --port=8080 --cors --no-browser"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@penpot/plugin-styles": "^0.10.0",
+    "@penpot/plugin-types": "^0.10.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.5.4"
+  }
+}

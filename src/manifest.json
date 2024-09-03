@@ -1,0 +1,13 @@
+{
+  "name": "Minimal template",
+  "description": "",
+  "code": "plugin.js",
+  "icon": "",
+  "permissions": [
+    "content:read",
+    "content:write",
+    "library:read",
+    "library:write",
+    "user:read"
+  ]
+}
